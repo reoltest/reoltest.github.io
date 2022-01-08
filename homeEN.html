@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Dashboard - Brand</title>
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=367f4ad3de506dcde9d4dc2c6e5206a4">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=4a9e95a40e44c5f7a49687745ee981cc">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css?h=a436bee1e5ae414f98db7ca13adfd7c0">
-    <link rel="stylesheet" href="/assets/css/styles.min.css?h=8ceb41e8ca6771501be552931c707203">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=4a455586789075c6927d04754ebfef63">
 </head>
 
 <body id="page-top">
@@ -18,10 +18,14 @@
         <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
             <div class="container-fluid d-flex flex-column p-0"><img class="img-thumbnail" src="/assets/img/Logo%20CARTGO.png?h=b25c7505aa77721b0e2e5da24b161e51">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link active" href="/homeEN.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/homeEN.html"><i class="fas fa-home"></i><span>Home</span></a><a class="nav-link" href="/stockEN.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="bi bi-graph-up">
+                                <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"></path>
+                            </svg><span>&nbsp;Stock</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="/marketplaceEN.html"><i class="fas fa-cart-plus"></i><span>Market</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="/newsEN.html"><i class="fas fa-newspaper"></i><span>News</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/marketplace.html"><i class="fas fa-newspaper"></i><span>Track</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/marketplace.html"><i class="fas fa-truck"></i><span>Track</span></a><a class="nav-link" href="/forumEN.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="bi bi-chat-right">
+                                <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v11.586l-2-2A2 2 0 0 0 11.586 11H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"></path>
+                            </svg><span>&nbsp;Forum</span></a></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
                 </ul>
@@ -30,7 +34,7 @@
         <div class="d-flex flex-column bg-white" id="content-wrapper">
             <div id="content" class="main-content bg-white">
                 <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
-                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop-1" type="button"><i class="fas fa-bars"></i></button>
                         <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                             <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
                                 <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
@@ -74,10 +78,19 @@
                                     </div>
                                 </div>
                             </li>
-                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <div class="d-none d-sm-block topbar-divider" style="margin-left: 0px;margin-right: 0px;"></div>
+                            <li class="nav-item dropdown no-arrow"><a class="nav-link" href="/home.html"><img class="border rounded-circle img-profile" src="/assets/img/indonesia.png?h=3af76a7c37fa7a2f25c2add3f3fa7de3"></a></li>
+                            <div class="d-none d-sm-block topbar-divider" style="margin-right: 0px;margin-left: 0px;"></div>
+                            <li class="nav-item dropdown no-arrow">
+                                <!-- Start: Dark Mode Switch -->
+                                <div class="row text-center d-xl-flex" style="margin-top: 18px;margin-left: -12px;">
+                                    <div class="col offset-xl-0 text-center d-flex justify-content-xl-center" style="margin-top: 5px;margin-left: 10px;"><div class="custom-control custom-switch"><input class="custom-control-input" type="checkbox" id="darkSwitch" /><label class="custom-control-label" for="darkSwitch"></label></div></div>
+                                </div><!-- End: Dark Mode Switch -->
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider" style="margin-right: 0px;margin-left: 0px;"></div>
                             <li class="nav-item dropdown no-arrow">
                                 <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="true" data-toggle="dropdown" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">Valerie Luna</span><img class="border rounded-circle img-profile" src="/assets/img/avatars/avatar1.jpeg?h=0ecc82101fb9a10ca459432faa8c0656"></a>
-                                    <div class="dropdown-menu show shadow dropdown-menu-right animated--grow-in"><a class="dropdown-item" href="/profile.html"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" href="/forumEN.html"><i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Forum</a><a class="dropdown-item" href="/home.html"><i class="fas fa-globe fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Bahasa Indonesia</a>
+                                    <div class="dropdown-menu show shadow dropdown-menu-right animated--grow-in"><a class="dropdown-item" href="/profile.html"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Profile</a>
                                         <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Logout</a><a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Login</a>
                                     </div>
                                 </div>
@@ -87,55 +100,96 @@
                 </nav>
                 <div class="container-fluid bg-white">
                     <div class="d-sm-flex justify-content-between align-items-center mb-4">
-                        <h1 class="text-dark mb-0">Home</h1><a class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="https://github.com/reoltest/reoltest.github.io/releases/download/CARTGO/CARTGO.Demo.by.GoNative.apk"><i class="fas fa-download fa-sm text-white-50"></i>&nbsp;Download</a><!-- Start: Dark Mode Switch -->
-                        <div class="row text-center d-xl-flex" style="margin-top: 15px;">
-                            <div class="col offset-xl-0 text-center d-flex justify-content-xl-center"><i class="fas fa-sun d-xl-flex align-items-xl-center" style="font-size: 24px;margin-right: 8px;"></i><div class="custom-control custom-switch"><input class="custom-control-input" type="checkbox" id="darkSwitch" /><label class="custom-control-label" for="darkSwitch"></label></div><i class="fas fa-moon d-xl-flex align-items-xl-center" style="font-size: 24px;"></i></div>
-                        </div><!-- End: Dark Mode Switch -->
-                    </div><!-- Start: Chart -->
-                    <div class="row bg-white">
-                        <div class="col">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th class="text-center">Product</th>
-                                            <th class="text-center">Price (Supplier)</th>
-                                            <th class="text-center">Price (Market)</th>
-                                            <th class="text-center d-sm-flex justify-content-sm-center align-items-sm-center">Supplier Price Change (24h)</th>
-                                            <th class="text-center">Market Price Changee (24h)</th>
-                                            <th class="text-center">Stock<br>(Ton)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Coconut</td>
-                                            <td class="text-center">25.000</td>
-                                            <td class="text-center">24.500</td>
-                                            <td class="text-center" style="color: rgb(0,255,0);">▲ 200</td>
-                                            <td class="text-center" style="color: rgb(0,255,0);">▲ 200</td>
-                                            <td class="text-center" style="color: rgb(133,135,150);">4.700</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Coconut Oil</td>
-                                            <td class="text-center">47.000</td>
-                                            <td class="text-center">44.000</td>
-                                            <td class="text-center" style="color: rgb(255,0,0);">▼ 350</td>
-                                            <td class="text-center" style="color: rgb(0,255,0);">▲ 500<br></td>
-                                            <td class="text-center" style="color: rgb(133,135,150);border-color: rgb(133,135,150);">0</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Crude Coconut Oil</td>
-                                            <td class="text-center">32.000</td>
-                                            <td class="text-center">33.000</td>
-                                            <td class="text-center" style="color: rgb(255,0,0);">▼ 100</td>
-                                            <td class="text-center" style="color: rgb(255,153,0);">=</td>
-                                            <td class="text-center" style="color: rgb(133,135,150);">26.000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                        <h1 class="text-dark mb-0">Home</h1><a class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="https://github.com/reoltest/reoltest.github.io/releases/download/CARTGO/CARTGO.Demo.by.GoNative.apk"><i class="fas fa-download fa-sm text-white-50"></i>&nbsp;Unduh</a>
+                    </div><!-- Start: Stok -->
+                    <section>
+                        <div class="row bg-white">
+                            <div class="col">
+                                <h3>Stock</h3>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">Product</th>
+                                                <th class="text-center">Price<br>(Supplier)</th>
+                                                <th class="text-center">Price<br>(Market)</th>
+                                                <th class="text-center d-sm-flex justify-content-sm-center align-items-sm-center"><br><strong>Supplier Price Change</strong><br><strong>(24h)</strong><br><br></th>
+                                                <th class="text-center"><strong>Market Price Change</strong><br><strong>(24h)</strong><br></th>
+                                                <th class="text-center">Stock<br>(Ton)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Coconut</td>
+                                                <td class="text-center">25.000</td>
+                                                <td class="text-center">24.500</td>
+                                                <td class="text-center" style="color: rgb(0,255,0);">▲ 200</td>
+                                                <td class="text-center" style="color: rgb(0,255,0);">▲ 200</td>
+                                                <td class="text-center" style="color: rgb(133,135,150);">4.700</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Coconut Oil</td>
+                                                <td class="text-center">47.000</td>
+                                                <td class="text-center">44.000</td>
+                                                <td class="text-center" style="color: rgb(255,0,0);">▼ 350</td>
+                                                <td class="text-center" style="color: rgb(0,255,0);">▲ 500<br></td>
+                                                <td class="text-center" style="color: rgb(133,135,150);border-color: rgb(133,135,150);">0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
-                    </div><!-- End: Chart -->
+                    </section><!-- End: Stok -->
+                    <!-- Start: Item List -->
+                    <section class="article-list">
+                        <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                            <h3 class="text-dark mb-0">Market</h3>
+                        </div>
+                        <div class="container">
+                            <!-- Start: items -->
+                            <div class="row articles">
+                                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/image-036.jpg?h=8d797f90cd7c5535a0e994b12024a6b4"></a>
+                                    <h3 class="name" style="text-align: left;font-size: 30px;">Coconut</h3>
+                                    <div class="row">
+                                        <div class="col" style="font-weight: 600;"><span style="font-weight: bold;">$25.000<br></span></div>
+                                        <div class="col"><span style="font-weight: 600;color: rgb(0,255,0);">▲ 200<br></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/image-049.jpg?h=6e801d0b23cb69fc6fba6a0653f39fc1"></a>
+                                    <h3 class="name" style="text-align: left;font-size: 30px;">Coconut Oil</h3>
+                                    <div class="row">
+                                        <div class="col" style="font-weight: 600;"><span style="font-weight: bold;">$47.000<br></span></div>
+                                        <div class="col"><span style="font-weight: 600;color: rgb(255,0,0);">▲ 350<br></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/Page-8-Image-22.png?h=9c1ed530401c24626424dd023145cd16"></a>
+                                    <h3 class="name" style="text-align: left;font-size: 30px;">Crude Coconut Oil</h3>
+                                    <div class="row">
+                                        <div class="col" style="font-weight: 600;"><span style="font-weight: bold;">$35.000<br></span></div>
+                                        <div class="col"><span style="font-weight: 600;color: rgb(255,122,0);">=<br></span></div>
+                                    </div>
+                                </div>
+                            </div><!-- End: items -->
+                        </div>
+                    </section><!-- End: Item List -->
+                    <!-- Start: news -->
+                    <section class="article-list">
+                        <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                            <h3 class="text-dark mb-0">Latest News</h3>
+                        </div><!-- Start: Articles -->
+                        <div class="row articles">
+                            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/edWSXAQ@!.png?h=2d6d6c5ea1faa974656e955979f9ae53"></a>
+                                <h3 class="name"><strong>Charcoal Price Raises</strong><br></h3><span><strong>26/12/2021</strong><br></span>
+                            </div>
+                            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/image-049.jpg?h=6e801d0b23cb69fc6fba6a0653f39fc1"></a>
+                                <h3 class="name"><strong>Coconut Oil Quality Degrade</strong><br></h3><span><strong>13/12/2021</strong><br></span>
+                            </div>
+                            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/image-043.jpg?h=541f7aa8c9fd1b262bbf0b2670bfce23"></a>
+                                <h3 class="name"><strong>Coconut Water Benefit</strong><br></h3><span><strong>30/11/2021</strong><br></span>
+                            </div>
+                        </div><!-- End: Articles -->
+                    </section><!-- End: news -->
                 </div>
             </div>
             <footer class="bg-white sticky-footer">
